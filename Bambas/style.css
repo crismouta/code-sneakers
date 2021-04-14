@@ -112,9 +112,12 @@ main{
     background: url(img/header.jpg);
 
 }
+.img_header{
+    width: 150px;
+}
 
 .header_title{
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .title .item2{
@@ -138,17 +141,18 @@ main{
 .menu_burger{
     display:flex;
     margin-top: 0;
-    width: 350px;
+    width: 400px;
 
 }
 
 a {
     text-decoration: none;
+    color:#08CE91;
 }
 
 h1{
-    font-size:70px;
-    
+    font-size:50px;
+    margin-top: -70px;
 }
 h2{
     margin-top:0px;
@@ -161,6 +165,7 @@ h6{
     margin-left: 15px;
     font-size: 20px;
 }
+
 
 button{
     width: 100%;
