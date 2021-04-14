@@ -11,6 +11,19 @@ header{
     ;
 }
 
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.productContainer {
+    display: flex;
+} 
+
 .productButtons{
     background-color: #f7a873;
     border: none;
