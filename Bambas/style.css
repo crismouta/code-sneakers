@@ -108,8 +108,7 @@ main{
     background: blueviolet;
     height: 600px;  
     width: 1280px;
-    opacity: ;
-    background: url(img/header.jpg);
+    background: url(../img/header.jpg);
 
 }
 .img_header{
@@ -131,11 +130,6 @@ main{
     align-self: center;
     flex-basis: 50vw;
     margin-left: 200px;
-}
-
-.item3{
-    
-
 }
 
 .menu_burger{
