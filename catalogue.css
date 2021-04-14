@@ -1,9 +1,12 @@
 .product-image {
     width: 100px;
+    
 }
 
 .products {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .logo{
@@ -21,14 +24,17 @@ main {
 }
 
 section {
-    display: flex;
-    flex-direction: column;
+
 }
 
 .productContainer {
     display: flex;
 } 
 
+.productContainer figure {
+    cursor: pointer;
+    background-size: 102px;
+}
 .productButtons{
     background-color: #f7a873;
     border: none;

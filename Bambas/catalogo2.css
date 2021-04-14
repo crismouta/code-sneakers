@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(./img/run_900.jpg);
+    opacity: .4;
+    background-repeat: no-repeat;
+    font-family: 'Bad Script', sans-serif;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+h1{
+    font-size: 60px;
+    color: aqua;  
+}
+
+h3{
+    font-size: 15px;
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h4{
+    margin-left: 250px;
+}
+main{
+    margin-top: -29px;
+}
+
+.text{
+    margin-top: 10px;
+}
+.container_main{
+    margin-top: 20px;
+    width: 1200px;
+    height: auto;
+    background: url(./img/pawel-czerwinski-7K8d5gCdy2o-unsplash.jpg);
+    margin-left: 70px;
+
+}
+
+.burger_menu{
+    
+}
+
+.section_all{
+    display: flex;
+    
+    opacity: ;
+}
+
+.section{
+    width: 400px;
+    height: auto;
+}
+
+.item{
+    display: flex;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+.item img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.section_footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    margin-top: 50px;
+}
