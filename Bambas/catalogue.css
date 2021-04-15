@@ -1,0 +1,205 @@
+.page_margin{
+    max-width: 1280px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* header */
+
+.logo{
+    width: 150px;
+    height: 150px;
+    flex-basis: ;
+}
+
+h1{ margin:0;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: cyan;
+    font-size: 200px;
+}
+
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    margin-bottom: 150px;
+}
+.product_image_img{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+
+}
+#home{
+    display: flex;
+}
+
+/* sections */
+
+.all{
+    display:flex;
+}
+
+ /* Catalog */
+
+.catalog{
+display: flex;
+margin-top: 100px;
+justify-content: space-evenly;
+
+}
+
+.catalog_image{
+    width: 200px;
+
+}
+
+.catalog_product{
+    
+}
+
+.catalogo_btn{
+    
+}
+
+.productContainer {
+    
+    margin-left: 25px;
+    
+} 
+
+
+
+.productButtons{
+    background-color: #f7a873;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 15px;
+}
+
+/* popup */
+
+.productButtons_pop{
+cursor: pointer;
+background-color: #f7a873;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 15px;
+}
+
+
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    font-size: 20px;
+    background: #39D8A7;
+    height: 50px;
+    
+}
+
+.foot{
+    color:black;
+    
+}
+#popup{   
+    width: 300px;
+    height: 300px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background: coral;
+}
+
+#main{
+    display: none;
+    position: relative;
+    top: 100px;
+    
+}
+
+#main:target{
+    display: block;
+}
+
+#popup1{   
+    width: 300px;
+    height: 300px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background: coral;
+    
+}
+
+#main1{
+    display: none;
+    top: -400px;
+}
+
+#main1:target{
+    display: block;
+}
+
+#popup2{   
+    width: 300px;
+    height: 300px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background: coral;
+}
+
+#main2{
+    display: none;
+    opacity: 0.3;
+}
+
+#main2:target{
+    display: block;
+}
+
+#popup3{   
+    width: 300px;
+    height: 300px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background: coral;
+}
+
+#main3{
+    display: none;
+    opacity: 0.3;
+}
+
+#main3:target{
+    display: block;
+}
+
+#popup4{   
+    width: 300px;
+    height: 300px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background: coral;
+}
+
+#main4{
+    display: none;
+     
+}
+
+#main4:target{
+    display: block;
+}
+
+https://app.slack.com/client/T01TRL51EHF/C01U7EH1YGY
