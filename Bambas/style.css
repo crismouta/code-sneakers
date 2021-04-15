@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 /* body{
     margin: 0;
@@ -98,25 +99,34 @@ main{
 
 /* nuevoooooo */
 
-.margin_page{
-    margin:0 20px 0 20px ;
+html {
+    scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Lato';
+    margin: 0;
+}
+
+div#container{
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 /* section header */
 
-.header{
+header{
     display: flex;
     background: blueviolet;
     height: 600px;  
-    width: 1280px;
+    width: 100vw;
     background: url(../img/header.jpg);
-
+    background-repeat: repeat;
 }
 .img_header{
     width: 150px;
-}
-
-.header_title{
-    font-size: 110px;
 }
 
 .title .item2{
@@ -124,11 +134,12 @@ main{
 }
 
 .item{
-    flex-basis: 20vw;}
+    flex-basis: 20vw;
+}
 
 .item2{
     align-self: center;
-    flex-basis: 50vw;
+    /*flex-basis: 50vw;*/
     margin-left: 200px;
 }
 
@@ -139,9 +150,10 @@ main{
 
 }
 
-a {
+.header-title {
     text-decoration: none;
     color:#08CE91;
+    font-size: 90px;
 }
 
 h1{
@@ -149,6 +161,7 @@ h1{
     margin-top: -70px;
     
 }
+
 h2{
     margin-top:0px;
     margin-left: 200px;
@@ -156,6 +169,7 @@ h2{
     font-family: 'bad script' ,sans-serif;
     font-size: 50px;
 }
+
 h6{
     margin-left: 15px;
     font-size: 20px;
@@ -177,8 +191,8 @@ p{
 }
 p.main_item{
     padding-top: 20px;
-   text-align: center;
-   font-family: 'bad Script', sans-serif;
+    text-align: center;
+    font-family: 'bad Script', sans-serif;
 }
 
 p.p_right{
@@ -188,7 +202,7 @@ p.p_right{
 main{
     background: darkorchid;
     opacity: .8;
-
+    width: 100vw;
 }
 
 .img_main{
@@ -196,10 +210,7 @@ main{
     height: 500px;
 
 }
-.name_2{
-    
 
-}
 .main_left{
     display: flex;
     justify-content: space-around;
@@ -253,19 +264,20 @@ main{
     flex-direction: row-reverse;
 }
 
-footer{
-
+.navbar ul{
     display: flex;
     justify-content: space-around;
     align-items:center ;
     font-size: 20px;
     background: #39D8A7;
     height: 50px;
-    
+    list-style: none;
+    margin: 0;
 }
 
-.foot{
+.navlink{
     color:black;
-    
+    text-decoration: none;
+    font-weight: 700;
 }
 
