@@ -2,6 +2,8 @@
     max-width: 1280px;
     margin-left: 20px;
     margin-right: 20px;
+    background:rgba(143, 65, 65, 0.5);
+    
 }
 
 /* header */
@@ -9,7 +11,7 @@
 .logo{
     width: 150px;
     height: 150px;
-    flex-basis: ;
+    
 }
 
 h1{ margin:0;
@@ -190,7 +192,8 @@ footer{
     height: 300px;
     border: 1 solid crimson;
     border-radius: 0 50px 0 50px;
-    background: coral;
+    
+    background: rgba(255, 127, 80, 0.1);
 }
 
 #main4{
@@ -201,5 +204,9 @@ footer{
 #main4:target{
     display: block;
 }
+
+
+
+  }
 
 https://app.slack.com/client/T01TRL51EHF/C01U7EH1YGY
