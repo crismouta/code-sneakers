@@ -23,10 +23,6 @@ main {
     background-image: url("");
 }
 
-section {
-
-}
-
 .productContainer {
     display: flex;
 } 

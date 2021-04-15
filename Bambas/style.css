@@ -1,168 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-/* body{
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato';
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
+
+div#container {
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 header{
-    background: url(img/run_900.jpg);
-    opacity: .4;
-    background-repeat: no-repeat;
-    font-family: 'Bad Script', sans-serif;
-    width: 100vw;
-    height: 100vh; 
-}
-
-.container{
     display: flex;
-    justify-content: space-between;
-    margin-left: 70px;
+    height: 600px;  
+    background: url("img/header.jpg");
 }
 
-img{
-    width: 100px;
-    height: auto;
+.header-title {
+    text-decoration: none;
+    color:#08CE91;
+    font-size: 90px;
 }
 
-h1{
-    font-size: 60px;
-    color: aqua;  
-}
-
-h3{
-    font-size: 15px;
-    color: red;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h2 {
-    color: black;
-    text-align: center;
-}
-
-h4{
-    margin-left: 250px;
-}
-main{
-    margin-top: -29px;
-}
-
-.text{
-    margin-top: 10px;
-}
-.container_main{
-    margin-top: 20px;
-    width: 1200px;
-    height: auto;
-    background: url(img/pawel-czerwinski-7K8d5gCdy2o-unsplash.jpg);
-    margin-left: 70px;
-
-}
-
-.burger_menu{
-    
-}
-
-.section_all{
-    display: flex;
-    
-    opacity: ;
-}
-
-.section{
-    width: 400px;
-    height: auto;
-}
-
-.item{
-    display: flex;
-    border: 3px solid black;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    
-}
-
-.item img{
-    width: 100px;
-    height: 100px;
-
-}
-
-.section_footer{
-    display: flex;
-    justify-content: space-between;
+h1 {
     font-size: 50px;
-    margin-top: 50px;
-} */
-
-
-/* nuevoooooo */
-
-.margin_page{
-    margin:0 20px 0 20px ;
+    align-self: center;
+    margin-top: 175px;
+    margin-left: 50px;
 }
+
+.logo{
+    margin-top: 190px;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+}
+
 /* section header */
 
-.header{
-    display: flex;
-    background: blueviolet;
-    height: 600px;  
-    width: 1280px;
-    background: url(../img/header.jpg);
-
-}
-.img_header{
+.img_header {
     width: 150px;
 }
 
-.header_title{
-    font-size: 110px;
-}
-
-.title .item2{
-    width: 600px;
-}
-
-.item{
-    flex-basis: 20vw;}
-
-.item2{
-    align-self: center;
-    flex-basis: 50vw;
-    margin-left: 200px;
-}
-
-.menu_burger{
-    display:flex;
-    margin-top: 0;
-    width: 409px;
-
-}
-
-a {
+.header-title {
     text-decoration: none;
     color:#08CE91;
+    font-size: 90px;
 }
 
-h1{
-    font-size:50px;
-    margin-top: -70px;
-    
-}
-h2{
+h2 {
     margin-top:0px;
     margin-left: 200px;
     margin-bottom: 0px;
     font-family: 'bad script' ,sans-serif;
     font-size: 50px;
 }
-h6{
+
+h6 {
     margin-left: 15px;
     font-size: 20px;
 }
 
 
-button{
+button {
     width: 100%;
     height: 50px;
     cursor: pointer;
@@ -170,37 +77,34 @@ button{
 
 /* main */
 
-p{
+p {
     margin: 0 20px 0 10px;
     font-size: 20px;
     font-weight: bold;
 }
-p.main_item{
+
+p.main_item {
     padding-top: 20px;
-   text-align: center;
-   font-family: 'bad Script', sans-serif;
+    text-align: center;
+    font-family: 'bad Script', sans-serif;
 }
 
-p.p_right{
+p.p_right {
     padding-top: 20px;
 }
 
-main{
+main {
     background: darkorchid;
     opacity: .8;
-
 }
 
-.img_main{
-    max-width: 500px;
+.img_main {
+    width: 500px;
     height: 500px;
 
 }
-.name_2{
-    
 
-}
-.main_left{
+.main_left {
     display: flex;
     justify-content: space-around;
     
@@ -253,19 +157,25 @@ main{
     flex-direction: row-reverse;
 }
 
-footer{
-
-    display: flex;
-    justify-content: space-around;
-    align-items:center ;
-    font-size: 20px;
-    background: #39D8A7;
-    height: 50px;
-    
+.navbar {
+    background-color: #39D8A7;
 }
 
-.foot{
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+    list-style: none;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.navlink{
     color:black;
-    
+    text-decoration: none;
+    font-weight: 700;
 }
 
