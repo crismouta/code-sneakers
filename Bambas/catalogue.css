@@ -40,7 +40,21 @@ h1 {
     margin-top: 190px;
     margin-left: 100px;
     width: 150px;
+<<<<<<< HEAD
+    height: 150px;   
+}
+main{
+    margin-bottom: 250px;
+}
+
+h1{ margin:0;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: cyan;
+    font-size: 200px;
+=======
     height: 150px;
+>>>>>>> ab890233aff2b92d431e27cb47663d41fcf3a5b0
 }
 
 h2{
@@ -48,6 +62,12 @@ h2{
     margin: 0;
 }
 
+<<<<<<< HEAD
+h3{
+
+}
+=======
+>>>>>>> ab890233aff2b92d431e27cb47663d41fcf3a5b0
 h4{
     text-align: center;
     font-size: 100px;
@@ -59,6 +79,14 @@ h4{
     width: 400px;
     height: 300px;
     cursor: pointer;
+<<<<<<< HEAD
+}
+
+.img_size{
+    width: 225px;
+    height: 225px;
+=======
+>>>>>>> ab890233aff2b92d431e27cb47663d41fcf3a5b0
 }
 
 #home{
@@ -153,17 +181,13 @@ justify-content: space-evenly;
     align-items: center;
     font-size: 20px;
     height: 50px;
-    list-style: none;
-    max-width: 1280px;
-    margin: 0px auto;
-    padding: 0;
 }
 
-.navlink{
-    color:black;
-    text-decoration: none;
-    font-weight: 700;
+.foot{
+    color:black;   
 }
+
+/* Pop-ups */
 
 #popup{   
     width: 300px;
@@ -254,12 +278,107 @@ figure {
     display: block;
 }
 
-.gender_product {
-    background-color: rgb(109, 191, 241);
-    padding: 12px;    
+.pop_gender{
+    display: flex;
+    justify-content: space-around;
 }
 
-.gender_product_mid {
-    background-color: rgb(70, 159, 214);
-    padding: 12px;
+#main_img_man{
+    display: none;
+    position: relative;
+    top: 100px;
 }
+
+#main_img_man:target{
+    display: block;
+}
+
+#popup_img_man{   
+    width: 1215px;
+    height: 420px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background:rgba(143, 65, 65, 0.5);
+}
+
+#main_img_man{
+    display: none;
+    position: relative;
+    top: 100px;
+}
+
+#main_img_man:target{
+    display: block;
+}
+
+#popup_img_man{   
+    width: 1215px;
+    height: 420px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background:rgba(143, 65, 65, 0.5);
+}
+
+#main_img_man{
+    display: none;
+    position: relative;
+    top: 100px;
+}
+
+#main_img_man:target{
+    display: block;
+}
+
+#popup_img_man{   
+    width: 1215px;
+    height: 420px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background:rgba(143, 65, 65, 0.5);
+}
+
+
+#main_img_wom{
+    display: none;
+    position: relative;
+    top: 100px;
+}
+
+#main_img_wom:target{
+    display: block;
+}
+
+#popup_img_wom{   
+    width: 1215px;
+    height: 420px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background:rgba(143, 65, 65, 0.5);
+    margin-left: -415px;
+    margin-right: -800px;
+}
+
+#main_img_kids{
+    display: none;
+    position: relative;
+    top: 100px;
+}
+
+#main_img_kids:target{
+    display: block;
+}
+
+#popup_img_kids{   
+    width: 1215px;
+    height: 420px;
+    border: 1 solid crimson;
+    border-radius: 0 50px 0 50px;
+    background:rgba(143, 65, 65, 0.5);
+    margin-left: -843px;
+
+}
+
+
+
+
+https://app.slack.com/client/T01TRL51EHF/C01U7EH1YGY
