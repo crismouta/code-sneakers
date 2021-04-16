@@ -114,7 +114,7 @@ main {
 .main_item_1{
     display: flex;
     width: 100%;
-    background: #08CE91;
+    background: #F9B33A;
     
     
 }
@@ -124,7 +124,7 @@ main {
    flex-direction: row-reverse;
    width: 100vw;
    
-   background: #F9B33A;
+   background: #08CE91;
    
 }
 
